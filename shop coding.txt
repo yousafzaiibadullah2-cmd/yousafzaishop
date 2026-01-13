@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ibad Yousafzai Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <div class="logo">Ibad Yousafzai Shop</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h1>Welcome to Ibad Yousafzai Shop</h1>
+    <p>Trendy and stylish clothing delivered to your doorstep. Cash on Delivery available!</p>
+    <a href="shop.html" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="featured">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product 1">
+        <h3>Men's T-Shirt</h3>
+        <p>Rs. 1200</p>
+        <a href="shop.html" class="btn">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product 2">
+        <h3>Women's Dress</h3>
+        <p>Rs. 2000</p>
+        <a href="shop.html" class="btn">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product 3">
+        <h3>Jeans</h3>
+        <p>Rs. 1500</p>
+        <a href="shop.html" class="btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Ibad Yousafzai Shop | <a href="mailto:yousafzaiibadullah2@gmail.com">Email Us</a> | <a href="https://wa.me/923001234567" target="_blank">WhatsApp</a></p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Ibad Yousafzai Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Ibad Yousafzai Shop</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="shop">
+    <h1>Our Products</h1>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product 1">
+        <h3>Men's T-Shirt</h3>
+        <p>Rs. 1200</p>
+        <button onclick="orderProduct('Men\'s T-Shirt')">Order COD</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product 2">
+        <h3>Women's Dress</h3>
+        <p>Rs. 2000</p>
+        <button onclick="orderProduct('Women\'s Dress')">Order COD</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product 3">
+        <h3>Jeans</h3>
+        <p>Rs. 1500</p>
+        <button onclick="orderProduct('Jeans')">Order COD</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300" alt="Product 4">
+        <h3>Hoodie</h3>
+        <p>Rs. 1800</p>
+        <button onclick="orderProduct('Hoodie')">Order COD</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Ibad Yousafzai Shop | <a href="mailto:yousafzaiibadullah2@gmail.com">Email Us</a> | <a href="https://wa.me/923001234567" target="_blank">WhatsApp</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Ibad Yousafzai Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Ibad Yousafzai Shop</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="about">
+    <h1>About Us</h1>
+    <p>Welcome to Ibad Yousafzai Shop! We provide trendy and stylish clothing for men and women at affordable prices. Cash on Delivery available. Our mission is to make fashion accessible and convenient for everyone.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Ibad Yousafzai Shop | <a href="mailto:yousafzaiibadullah2@gmail.com">Email Us</a> | <a href="https://wa.me/923001234567" target="_blank">WhatsApp</a></p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Ibad Yousafzai Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Ibad Yousafzai Shop</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h1>Contact Us</h1>
+    <p>You can reach us via email or WhatsApp:</p>
+    <ul>
+      <li>Email: <a href="mailto:yousafzaiibadullah2@gmail.com">yousafzaiibadullah2@gmail.com</a></li>
+      <li>WhatsApp: <a href="https://wa.me/923001234567" target="_blank">Chat on WhatsApp</a></li>
+    </ul>
+
+    <h2>Send a Message</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Ibad Yousafzai Shop | <a href="mailto:yousafzaiibadullah2@gmail.com">Email Us</a> | <a href="https://wa.me/923001234567" target="_blank">WhatsApp</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #222;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #ff6600;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background-color: #e55b00;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 15px 0 10px 0;
+}
+
+.product-card p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card .btn, .product-card button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.product-card .btn:hover, .product-card button:hover {
+  background-color: #e55b00;
+}
+
+/* About & Contact */
+.about, .contact {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.contact button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #e55b00;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+// COD Order Simulation
+function orderProduct(productName) {
+  alert(`Thank you for ordering "${productName}"!\nOur team will contact you on WhatsApp for Cash on Delivery.`);
+}
+
+// Contact Form Simulation
+const form = document.getElementById('contactForm');
+const formMessage = document.getElementById('formMessage');
+
+if(form){
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = form.name.value;
+    const email = form.email.value;
+    const message = form.message.value;
+
+    if(name && email && message){
+      formMessage.style.color = 'green';
+      formMessage.innerText = 'Thank you! Your message has been sent.';
+      form.reset();
+    } else {
+      formMessage.style.color = 'red';
+      formMessage.innerText = 'Please fill all fields!';
+    }
+  });
+}
